@@ -23,6 +23,7 @@ Ollama runs as a system service on this machine. See system info in `~/Repos/CLA
 | `llama3.1:8b` | 4.9 GB | ✅ | ✅ via tools | Fast, lightweight, most reliable for MCP tool calls |
 | `mistral:7b` | 4.4 GB | ⚠️ raw mode only | ⚠️ unreliable | General use — MCP unreliable due to message formatting issues |
 | `llama3.2:latest` | 2.0 GB | ✅ | ✅ via tools | Lightweight general use, fast responses |
+| `nomic-embed-text` | ~274 MB | N/A | N/A | Embedding model only — used by Open WebUI for RAG document indexing |
 
 ---
 
