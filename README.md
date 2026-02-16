@@ -21,7 +21,6 @@ Ollama runs as a system service on this machine. See system info in `~/Repos/CLA
 | `phi4:14b` | 9.1 GB | ⚠️ broken in Ollama | ❌ | ❌ broken | 2026-02-15 | Oct 2023 | BC/AL dev, reasoning, Microsoft ecosystem knowledge. |
 | `qwen2.5:14b` | 9.0 GB | ✅ | ✅ via tools | ✅ reliable | 2026-02-15 | Oct 2023 | General knowledge, mixed reasoning + coding. |
 | `llama3.1:8b` | 4.9 GB | ✅ | ✅ via tools | ✅ most reliable | 2026-02-15 | Dec 2023 | Fast, lightweight. |
-| `mistral:7b` | 4.4 GB | ⚠️ raw mode only | ⚠️ unreliable | ⚠️ unreliable | 2026-02-15 | May 2024 | General use. |
 | `llama3.2:latest` | 2.0 GB | ✅ | ✅ via tools | ✅ reliable | 2026-02-12 | Dec 2023 | Lightweight general use, fast responses. |
 | `nomic-embed-text` | ~274 MB | N/A | N/A | N/A | 2026-02-15 | N/A | Embedding model only — used by Open WebUI for RAG document indexing. |
 
