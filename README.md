@@ -14,15 +14,15 @@ Ollama runs as a system service on this machine. See system info in `~/Repos/CLA
 
 ## Installed Models *(as at 2026-02-15 — update this date and the table when adding new models)*
 
-| Model | Size | Tool Calling | Web Search | MCP Reliability | Downloaded | Training Cutoff | Best For |
-|-------|------|-------------|------------|-----------------|------------|----------------|----------|
-| `gpt-oss:20b` | 13 GB | ✅ native | ✅ native | ✅ reliable | 2026-02-15 | Jun 2024 | Reasoning, agentic tasks, chain-of-thought. OpenAI open-weight MoE model. |
-| `qwen2.5-coder:14b` | 9.0 GB | ✅ | ✅ via tools | ✅ reliable | 2026-02-15 | Oct 2023 | Coding — Node.js, bash/fish, AL/CAL (Business Central) |
-| `phi4:14b` | 9.1 GB | ⚠️ broken in Ollama | ❌ | ❌ broken | 2026-02-15 | Oct 2023 | BC/AL dev, reasoning, Microsoft ecosystem knowledge. |
-| `qwen2.5:14b` | 9.0 GB | ✅ | ✅ via tools | ✅ reliable | 2026-02-15 | Oct 2023 | General knowledge, mixed reasoning + coding. |
-| `llama3.1:8b` | 4.9 GB | ✅ | ✅ via tools | ✅ most reliable | 2026-02-15 | Dec 2023 | Fast, lightweight. |
-| `llama3.2:latest` | 2.0 GB | ✅ | ✅ via tools | ✅ reliable | 2026-02-12 | Dec 2023 | Lightweight general use, fast responses. |
-| `nomic-embed-text` | ~274 MB | N/A | N/A | N/A | 2026-02-15 | N/A | Embedding model only — used by Open WebUI for RAG document indexing. |
+| Model | Maker | Size | Quantization | Context Window | Tool Calling | Web Search | MCP Reliability | Downloaded | Training Cutoff | Best For |
+|-------|-------|------|--------------|----------------|-------------|------------|-----------------|------------|----------------|----------|
+| `gpt-oss:20b` | OpenAI | 13 GB | MXFP4 | 128k | ✅ native | ✅ native | ✅ reliable | 2026-02-15 | Jun 2024 | Reasoning, agentic tasks, chain-of-thought. Open-weight MoE model. |
+| `qwen2.5-coder:14b` | Alibaba | 9.0 GB | Q4_K_M | 128k | ✅ | ✅ via tools | ✅ reliable | 2026-02-15 | Oct 2023 | Coding — Node.js, bash/fish, AL/CAL (Business Central) |
+| `phi4:14b` | Microsoft | 9.1 GB | Q4_K_M | 16k | ⚠️ broken in Ollama | ❌ | ❌ broken | 2026-02-15 | Oct 2023 | BC/AL dev, reasoning, Microsoft ecosystem knowledge. |
+| `qwen2.5:14b` | Alibaba | 9.0 GB | Q4_K_M | 128k | ✅ | ✅ via tools | ✅ reliable | 2026-02-15 | Oct 2023 | General knowledge, mixed reasoning + coding. |
+| `llama3.1:8b` | Meta | 4.9 GB | Q4_K_M | 128k | ✅ | ✅ via tools | ✅ most reliable | 2026-02-15 | Dec 2023 | Fast, lightweight. |
+| `llama3.2:latest` | Meta | 2.0 GB | Q4_K_M | 128k | ✅ | ✅ via tools | ✅ reliable | 2026-02-12 | Dec 2023 | Lightweight general use, fast responses. |
+| `nomic-embed-text` | Nomic AI | ~274 MB | F16 | 8k | N/A | N/A | N/A | 2026-02-15 | N/A | Embedding model only — used by Open WebUI for RAG document indexing. |
 
 ---
 
