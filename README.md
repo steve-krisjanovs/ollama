@@ -9,6 +9,7 @@ Ollama runs as a system service on this machine. See system info in `~/Repos/CLA
 | API | `http://localhost:11434` |
 | Models dir | `/var/lib/ollama/` |
 | Manage | `systemctl start/stop/status ollama` |
+| Restart (alias) | `restart-ollama` → runs `restart-ollama.sh` (restarts + shows status) |
 
 ---
 
